@@ -1,0 +1,103 @@
+/*
+    IMPORTAÇÃO DE FONTE: Google Fontes
+*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*
+    PREDEFINIÇÃO: Cores
+*/
+:root {
+    --principal: #F61E83;
+    --secundaria: #490927;
+    --terciaria: #FFF;
+    --fundo: #1A0D21;
+}
+
+/*
+    Configurando um scroll suave nos links da barra de navegação principal
+*/
+.scroll-apresentacao {
+    scroll-behavior: smooth;
+}
+
+/*
+    Configurações na barra de navegação
+*/
+.nav-principal {
+    background-color: var(--principal);
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+/*
+    Configurações no ícone "1984" da barra de navegação
+*/
+.icone_1984 {
+    color: var(--secundaria);
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+
+/*
+    Configurações no ícone para acessar a barra de navegação quando a página estiver no tamanho sm
+*/
+.tamanho-icone-navbar {
+    width: 60px;
+    height: 50px;
+    font-size: 25px;
+}
+
+/*
+    Configurações na seção principal
+*/
+.secao-principal {
+    background-color: var(--principal);
+    text-align: center;
+    margin-top: 110px;
+    color: var(--secundaria);
+    font-family: 'Righteous', cursive;
+}
+
+/*
+    Configuração na imagem da seção principal
+*/
+.imagem-secao-principal {
+    width: 700px;
+}
+
+/*
+    Configurações na seção de enredo
+*/
+.secao-enredo-fundo {
+    background-image: url("../img/fundo_1984.jpg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: 3000px;
+}
+
+/*
+    Configurações nas seções secundárias: Características, Onde Comprar e Agradecimento
+*/
+.secao-secundaria {
+    background-color: var(--fundo);
+    padding: 120px;
+    text-align: center;
+    color: var(--terciaria);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Righteous', cursive;
+    border-bottom: 2px solid var(--principal);
+}
+
+/*
+    Configurações no rodapé
+*/
+.rodape {
+    background-color: var(--fundo);
+    color: var(--terciaria);
+    font-size: 18px;
+    padding: 30px;
+    font-weight: 300;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
