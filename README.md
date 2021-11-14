@@ -1,2 +1,2 @@
 # 1984
-Página Inicial - 1984: Site desenvolvido na disciplina de PW (Programação Web) da ETEC.
+Página Inicial - 1984: Site desenvolvido durante a realização de uma tarefa para disciplina de PW (Programação Web).
